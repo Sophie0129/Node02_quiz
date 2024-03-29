@@ -1,0 +1,22 @@
+console.log("회원 확인중")
+
+const match = () => {
+    console.log("match 가동")
+    let userid = document.getElementById(id)
+    let username = document.getElementById(name)
+    let num=0;
+
+    for(let i=0 ; i < matchmember.length ; i++){
+        if (name == username[i]){
+            if (id == userid[i]){
+                num = 1;
+            }
+        }
+    }
+    if(num == 1){
+        <a href = "/list">aa</a> 
+    }else{
+        alert("회원정보가 맞지 않습니다");
+        <a href = "/login"></a>
+    }
+}
